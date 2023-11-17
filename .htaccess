@@ -1,0 +1,9 @@
+# Mod_Rewrite
+ <IfModule mod_rewrite.c>
+     Options +FollowSymlinks
+     # Enable mod_rewrite
+     RewriteEngine On
+     # Frontend redirect
+     RewriteCond %{REQUEST_URI} ^(.*)$
+     RewriteRule ^(.*)$ public/$1
+ </IfModule>

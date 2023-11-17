@@ -1,0 +1,29 @@
+.custom-style{
+    background-color: #1a202c;
+    border-color: darkmagenta;
+    border:solid 2px indigo ;
+    margin:  20px 5px  ;
+    padding: 20px ;
+}
+.custom-style1{
+    background-color: green;
+    border: solid 2px indigo;
+    margin: 20px 5px;
+    padding-bottom: 15px;
+}
+.custom-style2{
+    background-color: darkturquoise;
+    border-color: red;
+    border: solid 2px indigo;
+    margin: 5px;
+    margin-top: 20px;
+    padding-left: 40px;
+}
+.custom-style3{
+    background-color: gold;
+    border: solid 2px indigo;
+    margin: 5px;
+    margin-top: 20px;
+    padding-right: 40px;
+}
+
