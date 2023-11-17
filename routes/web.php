@@ -15,7 +15,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('content.index');
+});
+Route::get('/category', function () {
+    return view('category.index');
+});
+Route::get('/category/show', function () {
+    return view('category.show');
 });
 
 Route::get('/dashboard', function () {
